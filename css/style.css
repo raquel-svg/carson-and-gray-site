@@ -124,7 +124,7 @@ footer { background: var(--black); border-top: 1px solid var(--rule); }
 .pain-head h2 { font-size: clamp(40px,5vw,72px); margin-bottom: 16px; }
 .pain-head p { font-size: 17px; }
 .pain-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
-.pain-card { background: var(--black); padding: 40px; }
+.pain-card { background: #161616; padding: 40px; }
 .pain-num { font-size: 13px; font-weight: 600; color: var(--accent); letter-spacing: 0.05em; margin-bottom: 16px; display: block; }
 .pain-card h3 { font-size: 22px; margin-bottom: 10px; line-height: 1.1; }
 .pain-card .pain-sub { font-size: 13px; font-weight: 600; color: var(--white-mute); margin-bottom: 14px; line-height: 1.4; }
@@ -167,7 +167,7 @@ footer { background: var(--black); border-top: 1px solid var(--rule); }
 
 /* TWO PATHS */
 .paths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); }
-.path-card { position: relative; aspect-ratio: 3/2; overflow: hidden; cursor: pointer; display: block; }
+.path-card { position: relative; aspect-ratio: 3/2; overflow: hidden; cursor: pointer; display: block; background: #1a1a1a; }
 .path-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
 .path-card:hover img { transform: scale(1.04); }
 .path-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,14,14,0.15) 0%, rgba(14,14,14,0.88) 100%); }
