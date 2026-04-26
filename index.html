@@ -1,226 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carson &amp; Gray | Remote Talent Specialists</title>
-  <meta name="description" content="We find, vet, and place exceptional South African professionals into SMBs across the US, UK, and Europe. 14 days. 40% lower cost. 90-day guarantee." />
-  <meta property="og:title" content="Carson &amp; Gray | Remote Talent Specialists" />
-  <meta property="og:description" content="World-class remote talent, placed from South Africa to the world." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80" />
-  <meta property="og:type" content="website" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231a1916'/><text x='4' y='22' font-size='11' fill='%23f0e8db' font-family='serif' letter-spacing='1'>C<tspan font-style='italic'>&amp;</tspan>G</text></svg>" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carson & Gray â Specialist Remote Recruitment</title>
+  <meta name="description" content="Carson & Gray places exceptional South African professionals into agencies and SMBs across the US, UK, and Europe. Specialist remote recruitment, hand-vetted talent.">
+  <meta property="og:title" content="Carson & Gray â Specialist Remote Recruitment">
+  <meta property="og:description" content="The world's most underrated talent market, hand-vetted and placed into the agencies and SMBs scaling fastest.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230e0e0e'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='11' fill='%23c9a961'>C&amp;G</text></svg>">
+  <link rel="stylesheet" href="css/style.css?v=1">
 </head>
 <body>
 
-  <div id="nav-placeholder"></div>
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Carson &amp; Gray</a>
+    <div class="nav-menu">
+      <a href="about.html">About</a>
+      <a href="for-clients.html">For Clients</a>
+      <a href="for-candidates.html">For Candidates</a>
+      <a href="talent-pool.html">Talent Pool</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-white btn-sm">Start a Conversation</a>
+    </div>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="about.html">About</a>
+    <a href="for-clients.html">For Clients</a>
+    <a href="for-candidates.html">For Candidates</a>
+    <a href="talent-pool.html">Talent Pool</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-white btn-sm">Start a Conversation</a>
+  </div>
+</nav>
 
-  <main>
+<main>
 
-    <!-- ── HERO ── -->
-    <section class="hero" aria-label="Hero">
-      <div class="hero__bg">
-        <img src="https://images.unsplash.com/photo-1577948000111-9c970dfe3743?w=1800&q=80&fit=crop" alt="Johannesburg skyline" loading="eager" fetchpriority="high" />
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=1920&q=80');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <div class="hero-eyebrow reveal">Across the US, UK &amp; Europe</div>
+      <h1 class="reveal reveal-delay-1">Specialist recruiters for remote <em>South African</em> talent.</h1>
+      <p class="hero-tagline reveal reveal-delay-2">The world's most underrated talent market, hand-vetted and placed into the agencies and SMBs scaling fastest.</p>
+      <div class="hero-buttons reveal reveal-delay-3">
+        <a href="contact.html" class="btn btn-white">Start a Conversation &rarr;</a>
+        <a href="talent-pool.html" class="btn btn-outline">View Our Talent Pool</a>
       </div>
-      <div class="hero__overlay" aria-hidden="true" style="opacity: 0.40;"></div>
-      <div class="container">
-        <div class="hero__content">
-          <span class="eyebrow reveal">Est. 2024 · Cape Town</span>
-          <h1 class="reveal reveal-delay-1">World-class remote talent, placed from South Africa to the world.</h1>
-          <p class="hero__sub reveal reveal-delay-2">We find, vet, and place exceptional South African professionals into agencies and SMBs across the US, UK, and Europe. Usually within 14 days, at roughly 40% of local cost.</p>
-          <div class="hero__btns reveal reveal-delay-3">
-            <a href="for-clients.html" class="btn btn--filled">I'm hiring</a>
-            <a href="for-candidates.html" class="btn btn--outline-paper">I'm looking for work</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+    <span class="hero-scroll-hint">Scroll down &darr;</span>
+  </section>
 
-    <!-- ── STATS STRIP ── -->
-    <div class="stats-strip">
-      <div class="stats-strip__inner" style="display:grid; grid-template-columns: repeat(3,1fr); max-width: 1160px; margin: 0 auto;">
-        <div class="stat-item" style="padding: 52px 48px; border-right: 1px solid var(--rule); text-align: center;">
-          <div style="display:flex; justify-content:center; margin-bottom:12px;">
-            <!-- Clock icon -->
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="16" cy="16" r="13" stroke="var(--accent)" stroke-width="1.5"/>
-              <line x1="16" y1="8" x2="16" y2="16" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-              <line x1="16" y1="16" x2="22" y2="20" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+  <hr class="section-rule">
+
+  <!-- TRUSTED BY -->
+  <section class="trusted">
+    <div class="container">
+      <p class="trusted-label reveal">Trusted by growing teams in 12+ countries</p>
+      <div class="trusted-logos reveal">
+        <div class="trusted-logo-box">CLIENT 01</div>
+        <div class="trusted-logo-box">CLIENT 02</div>
+        <div class="trusted-logo-box">CLIENT 03</div>
+        <div class="trusted-logo-box">CLIENT 04</div>
+        <div class="trusted-logo-box">CLIENT 05</div>
+        <div class="trusted-logo-box">CLIENT 06</div>
+        <div class="trusted-logo-box">CLIENT 07</div>
+        <div class="trusted-logo-box">CLIENT 08</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-copy">
+          <h2 class="reveal">Recruitment built on <em>relationships.</em></h2>
+          <p class="reveal reveal-delay-1">Carson &amp; Gray was founded on a simple belief, that great recruitment is about people, not pipelines. We're a specialist remote recruitment agency placing exceptional South African professionals into agencies and SMBs across the US, UK, and Europe.</p>
+          <p class="reveal reveal-delay-2">We don't chase numbers. We take time to understand both sides, vet every candidate ourselves, and make placements that last. That's how we work.</p>
+          <div class="intro-buttons reveal reveal-delay-3">
+            <a href="contact.html" class="btn btn-white">Get In Touch</a>
+            <a href="about.html" class="btn btn-outline">Learn More</a>
           </div>
-          <div class="stat-num" style="font-family:'Fraunces',Georgia,serif; font-weight:300; font-size:clamp(56px,6vw,96px); letter-spacing:-0.03em; color:var(--ink); line-height:1; margin-bottom:8px;">14</div>
-          <div class="stat-label" style="font-size:11px; letter-spacing:0.15em; text-transform:uppercase; color:var(--ink-mute); font-family:'DM Sans',sans-serif;">Days to shortlist</div>
         </div>
-        <div class="stat-item" style="padding: 52px 48px; border-right: 1px solid var(--rule); text-align: center;">
-          <div style="display:flex; justify-content:center; margin-bottom:12px;">
-            <!-- Down arrow icon -->
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line x1="16" y1="6" x2="16" y2="24" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-              <polyline points="10,18 16,26 22,18" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="stat-num" style="font-family:'Fraunces',Georgia,serif; font-weight:300; font-size:clamp(56px,6vw,96px); letter-spacing:-0.03em; color:var(--ink); line-height:1; margin-bottom:8px;">40%</div>
-          <div class="stat-label" style="font-size:11px; letter-spacing:0.15em; text-transform:uppercase; color:var(--ink-mute); font-family:'DM Sans',sans-serif;">Lower than local hiring cost</div>
-        </div>
-        <div class="stat-item" style="padding: 52px 48px; text-align: center;">
-          <div style="display:flex; justify-content:center; margin-bottom:12px;">
-            <!-- Shield icon -->
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 4 L26 8 L26 18 C26 23 21 27 16 29 C11 27 6 23 6 18 L6 8 Z" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round"/>
-              <polyline points="11,16 14.5,20 21,13" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="stat-num" style="font-family:'Fraunces',Georgia,serif; font-weight:300; font-size:clamp(56px,6vw,96px); letter-spacing:-0.03em; color:var(--ink); line-height:1; margin-bottom:8px;">90</div>
-          <div class="stat-label" style="font-size:11px; letter-spacing:0.15em; text-transform:uppercase; color:var(--ink-mute); font-family:'DM Sans',sans-serif;">Day replacement guarantee</div>
+        <div class="intro-image reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Remote work professional" loading="lazy">
         </div>
       </div>
     </div>
+  </section>
 
-    <hr class="section-rule" />
+  <hr class="section-rule">
 
-    <!-- ── HOW IT WORKS ── -->
-    <section>
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">How it works</span>
-          <h2>Three steps to your next great hire.</h2>
+  <!-- PAIN POINTS -->
+  <section class="section" style="background: var(--black-card);">
+    <div class="container">
+      <div class="pain-head">
+        <h2 class="reveal">The hiring problem is getting <em>harder.</em></h2>
+        <p class="reveal reveal-delay-1">Local salaries are rising faster than budgets. The right talent is harder to reach. We solve both.</p>
+      </div>
+      <div class="pain-grid">
+        <div class="pain-card reveal">
+          <span class="pain-num">01 &mdash;</span>
+          <h3>Rising local costs</h3>
+          <p class="pain-sub">Local hires now cost 2-3x what they did five years ago.</p>
+          <p>Salaries in the US, UK and Europe have outpaced revenue growth for most SMBs. Hiring locally for every role is no longer realistic.</p>
         </div>
-        <div class="steps">
-          <div class="step reveal">
-            <div class="step__num">i</div>
-            <h3>Discovery Call</h3>
-            <p>A 20-minute conversation to understand the role, your culture, and exactly what a great hire looks like for your business. No forms, no fluff.</p>
+        <div class="pain-card reveal reveal-delay-1">
+          <span class="pain-num">02 &mdash;</span>
+          <h3>Generic outsourcing</h3>
+          <p class="pain-sub">The Philippines and India aren't always the right answer.</p>
+          <p>Timezone friction, cultural fit, and English fluency vary. South African talent solves all three for Western markets.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-2">
+          <span class="pain-num">03 &mdash;</span>
+          <h3>Slow time-to-hire</h3>
+          <p class="pain-sub">Generic agencies waste months presenting wrong candidates.</p>
+          <p>Specialist remote recruitment means faster shortlists, fewer wasted interviews, and roles filled within 14 days.</p>
+        </div>
+        <div class="pain-card reveal">
+          <span class="pain-num">04 &mdash;</span>
+          <h3>Poor retention</h3>
+          <p class="pain-sub">A bad hire costs more than an unfilled role.</p>
+          <p>We focus on long-term fit over volume. Every placement is backed by a 90-day replacement guarantee.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-1">
+          <span class="pain-num">05 &mdash;</span>
+          <h3>Hidden talent pool</h3>
+          <p class="pain-sub">South Africa's best are not on Upwork.</p>
+          <p>We source through trusted networks, referrals, and direct outreach. Most candidates we place have never been on a job board.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-2">
+          <span class="pain-num">06 &mdash;</span>
+          <h3>Unaligned incentives</h3>
+          <p class="pain-sub">Most recruiters get paid once. We're paid to stay involved.</p>
+          <p>Our 90-day guarantee means we're financially aligned with retention, not just placement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- SERVICES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">What we place</p>
+          <h2 class="section-h2 reveal">Deep specialists, <em>not generalists.</em></h2>
+        </div>
+        <a href="for-clients.html" class="btn btn-outline reveal">View All Roles</a>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Operations and EA roles" loading="lazy">
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <h3>Operations &amp; EA</h3>
+            <p>Executive support, project coordination, and operations management built for remote-first businesses.</p>
+            <div class="service-tags">
+              <span class="tag">Executive Assistants</span>
+              <span class="tag">Ops Managers</span>
+              <span class="tag">Project Leads</span>
+              <span class="tag">Chiefs of Staff</span>
+            </div>
           </div>
-          <div class="step reveal reveal-delay-1">
-            <div class="step__num">ii</div>
-            <h3>Vetted Shortlist</h3>
-            <p>We source, screen, and hand-pick 3 to 5 candidates. You receive scored CVs and short Loom intro videos within 14 days. Only people we'd vouch for personally.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=800&q=80" alt="Marketing and content roles" loading="lazy">
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <h3>Marketing &amp; Content</h3>
+            <p>Content creators, social media managers, and copywriters who understand international brands.</p>
+            <div class="service-tags">
+              <span class="tag">Content Writers</span>
+              <span class="tag">Social Media</span>
+              <span class="tag">Video Editors</span>
+              <span class="tag">Brand Managers</span>
+            </div>
           </div>
-          <div class="step reveal reveal-delay-2">
-            <div class="step__num">iii</div>
-            <h3>Hire with Confidence</h3>
-            <p>You choose. We coordinate offers and support onboarding. Every placement is backed by a 90-day replacement guarantee. No additional charge.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80" alt="Sales and support roles" loading="lazy">
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <h3>Sales &amp; Support</h3>
+            <p>SDRs, customer success managers, and support specialists who convert and retain.</p>
+            <div class="service-tags">
+              <span class="tag">SDRs</span>
+              <span class="tag">Account Managers</span>
+              <span class="tag">Customer Success</span>
+              <span class="tag">Support Leads</span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr class="section-rule" />
+  <hr class="section-rule">
 
-    <!-- ── SOCIAL PROOF ── -->
-    <section style="background: var(--paper-deep);">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Trusted by growing teams</span>
-          <h2>What our clients say.</h2>
-        </div>
-        <div class="testi-grid">
-          <div class="testi-card reveal">
-            <p class="testi-card__quote">"[Replace with real testimonial] We'd tried two other agencies before Carson &amp; Gray. Within 10 days we had three candidates we'd have been happy to hire any one of. The quality of vetting was immediately obvious."</p>
-            <div class="testi-card__author">
-              <strong>[Client Name] | [Replace]</strong>
-              <span>CEO · [Company] · United States</span>
-            </div>
-          </div>
-          <div class="testi-card reveal reveal-delay-1">
-            <p class="testi-card__quote">"[Replace with real testimonial] Our customer success hire costs 60% less than the equivalent UK role and outperforms everyone we've ever hired locally. We've made three more placements since."</p>
-            <div class="testi-card__author">
-              <strong>[Client Name] | [Replace]</strong>
-              <span>Founder · [Company] · United Kingdom</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="logos-strip reveal">
-          <div class="logo-box">[CLIENT LOGO]</div>
-          <div class="logo-box">[CLIENT LOGO]</div>
-          <div class="logo-box">[CLIENT LOGO]</div>
-          <div class="logo-box">[CLIENT LOGO]</div>
-          <div class="logo-box">[CLIENT LOGO]</div>
+  <!-- PROCESS -->
+  <section class="section" style="background: var(--black-card);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">How it works</p>
+          <h2 class="section-h2 reveal">Simple. Specialist. <em>Straightforward.</em></h2>
+          <p class="section-sub reveal reveal-delay-1">Four steps from initial conversation to placement. Usually within 14 days.</p>
         </div>
       </div>
-    </section>
-
-    <hr class="section-rule" />
-
-    <!-- ── SELECTED TALENT ── -->
-    <section>
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Selected Talent</span>
-          <h2>Meet some of our vetted team.</h2>
-          <p>Names are revealed after a discovery call. Every profile below has been personally interviewed and reference-checked.</p>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule);">
-          <div class="cand-card reveal">
-            <div class="cand-card__initials">T.P</div>
-            <div class="cand-card__role">Senior Operations Manager</div>
-            <div class="cand-card__meta">Cape Town · 8 years exp.</div>
-            <div class="cand-card__tags">
-              <span class="tag">ClickUp</span>
-              <span class="tag">SOPs</span>
-              <span class="tag">Hiring</span>
-            </div>
-            <a href="talent-pool.html" class="cand-link">View profile →</a>
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <div class="process-img">
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=600&q=80" alt="Discovery call" loading="lazy">
           </div>
-          <div class="cand-card reveal reveal-delay-1">
-            <div class="cand-card__initials">N.M</div>
-            <div class="cand-card__role">Executive VA</div>
-            <div class="cand-card__meta">Johannesburg · 5 years exp.</div>
-            <div class="cand-card__tags">
-              <span class="tag">Notion</span>
-              <span class="tag">Inbox</span>
-              <span class="tag">Calendar</span>
-            </div>
-            <a href="talent-pool.html" class="cand-link">View profile →</a>
-          </div>
-          <div class="cand-card reveal reveal-delay-2">
-            <div class="cand-card__initials">K.D</div>
-            <div class="cand-card__role">Social Media Manager</div>
-            <div class="cand-card__meta">Cape Town · 6 years exp.</div>
-            <div class="cand-card__tags">
-              <span class="tag">TikTok</span>
-              <span class="tag">Instagram</span>
-              <span class="tag">Analytics</span>
-            </div>
-            <a href="talent-pool.html" class="cand-link">View profile →</a>
-          </div>
-          <div class="cand-card reveal reveal-delay-3">
-            <div class="cand-card__initials">J.V</div>
-            <div class="cand-card__role">Customer Success Lead</div>
-            <div class="cand-card__meta">Durban · 7 years exp.</div>
-            <div class="cand-card__tags">
-              <span class="tag">Intercom</span>
-              <span class="tag">Zendesk</span>
-              <span class="tag">Onboarding</span>
-            </div>
-            <a href="talent-pool.html" class="cand-link">View profile →</a>
+          <div class="process-body">
+            <span class="process-num">01 &mdash;</span>
+            <h3>Discovery</h3>
+            <p>We learn your business and exactly what you need. Not a form, a real conversation.</p>
           </div>
         </div>
-        <div style="margin-top: 36px; text-align: center;">
-          <a href="talent-pool.html" class="btn btn--outline">Browse the full talent pool</a>
+        <div class="process-card reveal reveal-delay-1">
+          <div class="process-img">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Sourcing talent" loading="lazy">
+          </div>
+          <div class="process-body">
+            <span class="process-num">02 &mdash;</span>
+            <h3>Sourcing</h3>
+            <p>We identify the right candidates from our active network. Not just job boards.</p>
+          </div>
+        </div>
+        <div class="process-card reveal reveal-delay-2">
+          <div class="process-img">
+            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=600&q=80" alt="Shortlisting candidates" loading="lazy">
+          </div>
+          <div class="process-body">
+            <span class="process-num">03 &mdash;</span>
+            <h3>Shortlist</h3>
+            <p>A small, qualified shortlist with intro videos. No noise, no time-wasting.</p>
+          </div>
+        </div>
+        <div class="process-card reveal reveal-delay-3">
+          <div class="process-img">
+            <img src="https://images.unsplash.com/photo-1543269664-76bc3997d9ea?auto=format&fit=crop&w=600&q=80" alt="Placement and handshake" loading="lazy">
+          </div>
+          <div class="process-body">
+            <span class="process-num">04 &mdash;</span>
+            <h3>Placement</h3>
+            <p>We manage the process through to offer, and stay in touch long after.</p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr class="section-rule" />
+  <hr class="section-rule">
 
-    <!-- ── DARK CTA ── -->
-    <section class="dark-cta">
-      <div class="container">
-        <h2 class="reveal">Your next hire is already <em>vetted.</em></h2>
-        <a href="contact.html" class="btn btn--accent reveal">Book a 20-minute call</a>
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" style="margin-bottom: 56px;">
+        <div>
+          <p class="section-eyebrow">Testimonials</p>
+          <h2 class="section-h2 reveal">Trusted by candidates and clients <em>alike.</em></h2>
+          <p class="section-sub reveal reveal-delay-1">Real outcomes from real placements across three continents.</p>
+        </div>
       </div>
-    </section>
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-avatar">JS</div>
+          <span class="testi-name">James Sutherland</span>
+          <span class="testi-role">Agency Founder, UK</span>
+          <p class="testi-quote">"Raquel found us a Head of Operations in nine days. She's been with us a year and runs the team better than I do. Game-changing for our agency."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-avatar">SK</div>
+          <span class="testi-name">Sarah Kim</span>
+          <span class="testi-role">COO, US Tech Company</span>
+          <p class="testi-quote">"Three placements in six months. Each one cost us a fraction of a London hire and the quality was consistently higher. Carson &amp; Gray are now our default."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-avatar">DM</div>
+          <span class="testi-name">David Muller</span>
+          <span class="testi-role">Founder, German SaaS</span>
+          <p class="testi-quote">"The diligence was unmatched. Every candidate Raquel sent was someone I would have hired. Made the decision excruciatingly easy."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-avatar">EM</div>
+          <span class="testi-name">Emma Mokoena</span>
+          <span class="testi-role">Content Manager, Cape Town</span>
+          <p class="testi-quote">"Placed me in a remote role with a US ecommerce brand within two weeks of our first call. Carson &amp; Gray genuinely understands what candidates want."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-avatar">TN</div>
+          <span class="testi-name">Tom Nicholls</span>
+          <span class="testi-role">CEO, UK SaaS Company</span>
+          <p class="testi-quote">"I've worked with five recruiters trying to scale our SaaS. Raquel is the only one who actually listens. Pace, quality, communication, all top of class."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-avatar">LB</div>
+          <span class="testi-name">Liam Brennan</span>
+          <span class="testi-role">Operations Director, Ireland</span>
+          <p class="testi-quote">"Honestly didn't think we'd find someone of this calibre at the budget we had. Carson &amp; Gray made it look easy."</p>
+          <a href="#" class="testi-link">LinkedIn &rarr;</a>
+        </div>
+      </div>
+      <div class="testi-stat reveal">
+        <span class="testi-stat-num">100+</span>
+        <span class="testi-stat-label">Successful placements across 3 continents</span>
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <hr class="section-rule">
 
-  <div id="footer-placeholder"></div>
+  <!-- TWO PATHS -->
+  <section class="section" style="background: var(--black-card);">
+    <div class="container">
+      <div class="section-head" style="margin-bottom: 56px;">
+        <div>
+          <p class="section-eyebrow">How we help</p>
+          <h2 class="section-h2 reveal">Two paths, <em>one specialist.</em></h2>
+          <p class="section-sub reveal reveal-delay-1">Whether you're hiring or job-seeking, we work both sides of the conversation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="paths-grid">
+      <a href="for-clients.html" class="path-card reveal">
+        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1200&q=80" alt="Business meeting" loading="lazy">
+        <div class="path-overlay"></div>
+        <div class="path-content">
+          <h3>Need to hire?</h3>
+          <p>Tell us who you're looking for. We'll find them.</p>
+          <span class="path-arrow">For Clients &rarr;</span>
+        </div>
+      </a>
+      <a href="for-candidates.html" class="path-card reveal reveal-delay-1">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80" alt="Professional working remotely" loading="lazy">
+        <div class="path-overlay"></div>
+        <div class="path-content">
+          <h3>Looking for your next role?</h3>
+          <p>We work confidentially, on your terms.</p>
+          <span class="path-arrow">For Candidates &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </section>
 
-  <script src="js/main.js"></script>
-  <script>initNav('index.html');</script>
+  <hr class="section-rule">
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2 class="reveal">Ready to talk?</h2>
+      <p class="cta-sub reveal reveal-delay-1">Whether you're growing a team or looking for your next move, we're here.</p>
+      <a href="contact.html" class="btn btn-white reveal reveal-delay-2">Start a Conversation &rarr;</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-brand-logo">Carson &amp; Gray</span>
+        <p class="footer-tagline">Specialist remote recruitment placing exceptional South African talent into agencies and SMBs worldwide.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="for-clients.html">For Clients</a></li>
+          <li><a href="for-candidates.html">For Candidates</a></li>
+          <li><a href="talent-pool.html">Talent Pool</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Socials</h4>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reach Us</h4>
+        <ul>
+          <li><a href="mailto:raquel@carsonandgray.com">raquel@carsonandgray.com</a></li>
+          <li><a href="#">Cape Town, South Africa</a></li>
+          <li><a href="#">+27 (placeholder)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Carson &amp; Gray Recruitment</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js?v=1"></script>
 </body>
 </html>
