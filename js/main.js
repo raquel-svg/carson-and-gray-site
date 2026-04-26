@@ -22,7 +22,7 @@ function getNavHTML(activePage) {
 
   return `
     <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
-      <a href="index.html" class="nav-logo">Carson <em>&amp;</em> Gray</a>
+      <span class="nav-logo">Carson <em style="font-style:italic;">&amp;</em> Gray</span>
       <div class="nav-links">${navLinks}</div>
       <div class="nav-cta">
         <a href="contact.html" class="btn btn--filled">Book a Call</a>
@@ -42,7 +42,7 @@ function getNavHTML(activePage) {
 function getFooterHTML() {
   return `
     <footer class="site-footer" role="contentinfo">
-      <div class="footer-wordmark" aria-hidden="true">Carson <em>&amp;</em> Gray</div>
+      <div class="footer-wordmark" aria-hidden="true">Carson <em style="font-style:italic;">&amp;</em> Gray</div>
       <div class="footer-grid">
         <div class="footer-col">
           <h4>Contact</h4>
@@ -68,7 +68,7 @@ function getFooterHTML() {
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2026 Carson <em>&amp;</em> Gray · Cape Town, South Africa · Confidential</p>
+        <p>© 2026 Carson <em style="font-style:italic;">&amp;</em> Gray · Cape Town, South Africa · Confidential</p>
       </div>
     </footer>
   `;
