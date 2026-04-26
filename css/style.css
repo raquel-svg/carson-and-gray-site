@@ -172,8 +172,9 @@ section {
 .nav-logo {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: 17px;
-  letter-spacing: -0.01em;
+  font-size: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
   color: var(--paper);
   transition: color 0.35s;
   white-space: nowrap;
@@ -271,7 +272,8 @@ section {
   font-weight: 300;
   font-size: clamp(48px, 8vw, 96px);
   color: rgba(240,232,219,0.1);
-  letter-spacing: -0.04em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
   line-height: 1;
   margin-bottom: 64px;
   padding: 0 48px;
@@ -340,9 +342,7 @@ section {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  opacity: 0.65;
-  filter: grayscale(0.3) contrast(1.05);
-  mix-blend-mode: luminosity;
+  opacity: 0.75;
 }
 .hero__overlay {
   position: absolute;
@@ -901,7 +901,6 @@ section {
   height: 100%;
   object-fit: cover;
   opacity: 0.07;
-  filter: grayscale(1);
 }
 .contact-grid {
   display: grid;
@@ -998,7 +997,7 @@ section {
   padding-bottom: 16px;
   border-bottom: 1px solid var(--rule);
 }
-.pricing-includes li::before { content: '—'; color: var(--accent); flex-shrink: 0; font-family: var(--font-display); }
+.pricing-includes li::before { content: '→'; color: var(--accent); flex-shrink: 0; font-family: var(--font-display); }
 
 /* ── INLINE NOTICE ── */
 .notice {
